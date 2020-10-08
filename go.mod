@@ -1,3 +1,3 @@
 module hello_world
 
-go 1.14
+go 1.15
