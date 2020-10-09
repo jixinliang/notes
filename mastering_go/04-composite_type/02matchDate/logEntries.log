@@ -1,0 +1,6 @@
+- - [21/Nov/2020:19:28:09 +0200] "GET /AMEv2.tif.zip HTTP/1.1" 200 21882491"-"
+- - [21/Jun/2020:19:28:09 +0200] "GET /AMEv2.tif.zip HTTP/1.1" 200
+- - [25/Jun/2020:20:05:34 +0200] "GET /MongoDjango.zip HTTP/1.1" 200 118362
+- - [Jun-21-17:19:28:09 +0200] "GET /AMEv2.tif.zip HTTP/1.1" 200
+- - [20/Nov/2020:20:05:34 +0200] "GET /MongoDjango.zip HTTP/1.1" 200 118362
+- - [40/Nov/2020:20:05:34 +0200] "GET MongoDjango.zip HTTP/1.1" 200 118362

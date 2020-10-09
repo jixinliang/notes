@@ -1,0 +1,22 @@
+package main
+
+import (
+	"flag"
+	"fmt"
+	"github.com/spf13/pflag"
+	"github.com/spf13/viper"
+)
+
+func main() {
+	//i := flag.Int("i",100,"A int parameter")
+	//flag.Parse()
+	//fmt.Println(*i)
+
+	flag.Int("i", 100, "A int parameter")
+	pflag.CommandLine.AddGoFlagSet(flag.CommandLine)
+	pflag.Parse()
+
+	viper.BindPFlags(pflag.CommandLine)
+	i := viper.GetInt("i")
+	fmt.Println(i)
+}

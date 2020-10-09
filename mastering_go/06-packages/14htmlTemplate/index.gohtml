@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GoHtml</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            font-size: 14px;
+        }
+
+        table, th, td {
+            border: 2px solid salmon;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+    <tr>
+        <th>Number</th>
+        <th>Double</th>
+        <th>Square</th>
+    </tr>
+    </thead>
+    <tbody>
+    {{ range .}}
+        <tr>
+            <td>{{ .Number }}</td>
+            <td>{{ .Double }}</td>
+            <td>{{ .Square }}</td>
+        </tr>
+    {{ end }}
+    </tbody>
+</table>
+
+</body>
+</html>
