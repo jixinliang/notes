@@ -10,7 +10,7 @@ awk -- pattern scanning and processing language
     $0 is the whole record
     $1 is the first record  
     $2 is the second record
-    $NF 取最后一个字段
+    $NF	the last field of line
     NF  The number of fields in  the  current input record
     NR  The  total  number  of  input records seen so far
     /regular expression/
